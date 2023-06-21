@@ -2,6 +2,8 @@ df1 = pd.read_excel(r'C:\excel.xlsx', skiprows=1 , header=None)
 #df1 = pd.read_excel(r'C:\keywords.xlsx', sheet_name='Sheet1', usecols=[1],names=None)
 df1_list = df1.values.tolist()
 
+#这样出现的list每一个元素就是一行，list[n][n]来选定个别元素。
+
 # - usecols - 只加载这一列，也能接列名。
 # - io - 文件路径或file-like对象。指定Excel文件读取的来源。
 # - sheet_name - 工作表名,读取指定工作表。默认读入所有工作表。
