@@ -1,2 +1,2 @@
 # python
-use to save codes of python
+Record some python codes I use in my work
