@@ -10,3 +10,12 @@
 # - range 对象
 # - 任何可迭代对象
 
+fruits = ['apple', 'banana', 'cherry', 'durian']
+# - fruits[-1] 是 'durian',表示倒数第一个元素
+# - fruits[-2] 是 'cherry',表示倒数第二个元素
+# - 以此类推
+# 所以,如果切片中的 start 和 end 索引是负数,表示如下含义:
+# - start:从序列末尾开始算起的起始位置
+# - end:从序列末尾开始算起的结束位置
+
+fruits[-3:-1]  # ['cherry', 'durian']
