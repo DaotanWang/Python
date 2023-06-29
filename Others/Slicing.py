@@ -18,4 +18,4 @@ fruits = ['apple', 'banana', 'cherry', 'durian']
 # - start:从序列末尾开始算起的起始位置
 # - end:从序列末尾开始算起的结束位置
 
-fruits[-3:-1]  # ['cherry', 'durian']
+fruits[-3:-1]  #['banana', 'cherry']
