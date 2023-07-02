@@ -10,6 +10,8 @@
 # - range 对象
 # - 任何可迭代对象
 
+#纯数字无法切片
+
 fruits = ['apple', 'banana', 'cherry', 'durian']
 # - fruits[-1] 是 'durian',表示倒数第一个元素
 # - fruits[-2] 是 'cherry',表示倒数第二个元素
